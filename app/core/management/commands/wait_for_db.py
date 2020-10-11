@@ -19,4 +19,3 @@ class Command(BaseCommand):
         self.stdout.write(
             self.style.SUCCESS("Database available")
         )  # wraps in green style
-
